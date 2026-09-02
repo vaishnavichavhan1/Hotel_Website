@@ -1,0 +1,109 @@
+<html>
+    <head>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+        <title>Hotel Booking website</title>
+        <style>
+             body{
+                background-image: url('background2.AVIF');
+                margin: 0px;
+            }
+             .navbar{
+            background-color:#cb76396f;
+            
+        }
+        .nav-link{
+            color:white !important;
+            margin-right:20px;
+            font-size:20px;
+            font-family: Poppins;
+            text-decoration: underline;
+        }
+        .nav-link:hover{
+            color:gold !important;
+        }
+      .card-title{
+      
+        color: brown;
+        font-family: poppin;
+        font-size: 60px;
+        font-weight: bolder;
+      
+      }
+      form{
+        border-radius: 20px;
+        width: 50%;
+        font-size: 20px;
+        font-family: poppin;
+        color: brown;
+        font-weight: bolder;
+      }
+ @media (max-width: 768px) {
+    h1 {
+        top: 15%;
+        left: 25%;
+        font-size: 35px;
+    }
+
+    p {
+        top: 68%;
+        left: 20%;
+        font-size: 40px;
+    }
+
+    .p1 {
+        top: 80%;
+        left: 8%;
+        font-size: 18px;
+        text-align: center;
+        width: 85%;
+    }
+
+    img {
+        width: 90%;
+        height: 40%;
+        left: 5%;
+        top: 25%;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+}
+     
+        </style>
+    </head>
+    <body>
+<nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="hotel.html">Home</a>
+            <a class="nav-link" href="explore.html">Explore</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="booking.html">Booking</a>
+             <a class="nav-link" href="review.html">Review</a>
+             <button class="btn btn-warning ms-3">
+                    <a  class="nav-link" href="contact.html">Contact us</a>
+                </button>
+            </div>
+        </div>
+        </nav>
+        <h1 class="card-title">Booking</h1>
+        <center>
+        <form>
+        <label for="Name">Name:</label>
+        <input type="text" class="form-control mb-3" placeholder="Name">
+        <label for="contact no">Contact No:</label>
+        <input type="text" class="form-control mb-3" placeholder="Contact No">
+         <label for="No of people">No of people:</label>
+        <input type="number" class="form-control mb-3" placeholder="No of people">
+         <label for="No of Rooms">No of Rooms:</label>
+        <input type="number" class="form-control mb-3" placeholder="No of Rooms">
+         <label for="Date of visiting">Date of visiting:</label>
+        <input type="date" class="form-control mb-3" placeholder="Date of visiting">
+        <h2>Payment: Deposit half of your money before visitng and half after leaving hotel</h2>
+    <img src="scanner.png">
+    </form>
+    </center>
+    </body>
+</html>
